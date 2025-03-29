@@ -1,3 +1,31 @@
-h1{
-    color: blueviolet;
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    color: #4e2c1f;
+    background-color: #eacab0;
+    padding: 10px 200px 10px 200px
+    
+}
+section{
+    background-color:#eacab0 ;
+    padding: 10px 200px 10px 200px;
+    margin: 0px;
+}
+.vzdelani, .ja {
+    margin-top: 0px;
+}
+h2{
+    color: #f07817;
+}
+
+.osobni{
+    background-color: #a6c8ef;
+    color: #032b5b;
+
+}
+footer{
+    background-color: #a6c8ef;
+    padding: 10px 200px 10px 200px
 }
