@@ -1,31 +1,69 @@
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: medium;
+    margin: 0px 10% 0px 10%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
 }
 
 header{
     color: #4e2c1f;
-    background-color: #eacab0;
-    padding: 10px 200px 10px 200px
-    
+    background-color: #eae4e0;
+    padding: 10px 200px 10px 200px;
+    font-family: "Petit Formal Script", cursive;
+    font-weight: bold;
+    font-style: normal;   
 }
 section{
-    background-color:#eacab0 ;
+    background-color:  #eae4e0;
     padding: 10px 200px 10px 200px;
-    margin: 0px;
-}
-.vzdelani, .ja {
-    margin-top: 0px;
+ }   
+.vzdelani {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid #4e2c1f;
+    border-bottom: 1px solid #4e2c1f
 }
 h2{
-    color: #f07817;
-}
-
+    color: #924506;
+    font-family: "Petit Formal Script", cursive;
+        font-weight: bold;
+        font-style: normal;
+      
+}          
 .osobni{
-    background-color: #a6c8ef;
+    background-color: #b7cbe2;
     color: #032b5b;
-
+    display: flex;  
+    justify-content: space-between; /* Rozprostře prvky na kraje */
+    align-items: center; /* Zarovnání na střed vertikálně */
 }
+.udaj{
+    text-align: center;
+}
+.osobni img{
+    border-radius: 50%;
+    width: 200px;
+}
+table{
+    width: auto;
+    border-collapse: collapse;
+}
+
+a{
+    color: rgb(6, 60, 62);
+    font-style: italic;
+  }
+  a:visited{
+    color: darkblue;
+    font-style: italic;
+  }
+
 footer{
-    background-color: #a6c8ef;
+    background-color: #b7cbe2;
     padding: 10px 200px 10px 200px
 }
