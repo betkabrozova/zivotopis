@@ -16,12 +16,21 @@ header{
     padding: 10px 200px 10px 200px;
     font-family: "Petit Formal Script", cursive;
     font-weight: bold;
-    font-style: normal;   
+    font-style: normal; 
+    padding: 20px 50px 20px 50px;
+    margin: 5px auto 5px auto;
+    max-width: 850px;
+    border-radius: 10px;  
+    text-align: center;
 }
-section{
+.obsah{
+    padding: 20px 50px 20px 50px;
+    margin: 5px auto 5px auto;
+    max-width: 850px;
+    border-radius: 10px;
     background-color:  #eae4e0;
-    padding: 10px 200px 10px 200px;
- }   
+    }
+    
 .vzdelani {
     padding-top: 1px;
     padding-bottom: 1px;
@@ -42,6 +51,10 @@ h2{
     display: flex;  
     justify-content: space-between; /* Rozprostře prvky na kraje */
     align-items: center; /* Zarovnání na střed vertikálně */
+    padding: 20px 50px 20px 50px;
+    margin: 5px auto 5px auto;
+    max-width: 850px;
+    border-radius: 10px;
 }
 .udaj{
     text-align: center;
@@ -74,4 +87,8 @@ footer{
     background-color: #b7cbe2;
     padding: 10px 200px 10px 200px;
     font-style: italic;
+    padding: 20px 50px 20px 50px;
+    margin: 5px auto 5px auto;
+    max-width: 850px;
+    border-radius: 10px;
 }
