@@ -72,6 +72,8 @@ table{
 }
 ul{
     list-style-type: square;
+    padding-left:80px;
+    line-height: 1.8;
 }
 
 a{
@@ -79,8 +81,11 @@ a{
     font-style: italic;
   }
   a:visited{
-    color: darkblue;
+    color: rgb(0, 0, 1);
     font-style: italic;
+  }
+  a:hover{
+    color: orange;
   }
 
 footer{
